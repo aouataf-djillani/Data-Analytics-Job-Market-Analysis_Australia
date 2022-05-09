@@ -4,11 +4,13 @@ import re
 
 def clean(file):
 
-    data= pd.read_excel(delimiter=",")
-
+    data= pd.read_excel(file, delimiter=",")
+    
     # cleaning skills column
     patterns=[
                     '\n',
+                    ';',
+                    ',',
                     '^.*?Expect', 
                     '^.*?Qualifications', 
                     '^.*?Required', 
@@ -19,8 +21,9 @@ def clean(file):
                     '^.*?great', 
                     '^.*?Looking For', 
                     '^.*?ll Need', 
-                    ]
 
+                    ]
+                    
     data['Requirements'] = data['Requirements'].replace( [e for e in patterns] , ' ', regex=True)
     # remove irrelevent data from industry column 
     data['Industry'] = data['Industry'].str.replace("^(.+?)·",'',regex=True)
@@ -30,6 +33,9 @@ def clean(file):
     # move job level information from type to level column : [Full-time . associate] ==> [full-time] [associate]
     #level column 
     data[['Type', 'Level']] = data['Type'].str.split('·', 1, expand=True)
+    # Remove commas 
+    data= data.replace(',', ' ', regex= True)
+
 
     #save to excel
 
@@ -38,4 +44,4 @@ def clean(file):
     return f"data saved to {output}"
 
 dataFile='/home/aouataf/Documents/linkedinJobs/DataAnalystJobs.xlsx'
-clean(dataFile)
+print(clean(dataFile))
