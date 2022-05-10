@@ -28,12 +28,15 @@ from job_postings
 group by Level;
 
 -- Top companies that hire juniors
-select Company, count(Company) as Hiring_company
-from job_postings
-where Level LIKE '%Entry%'
-group by Company 
-order by Count(Company) DESC
-limit 10;
+SELECT 
+    Company, COUNT(Company) AS Hiring_company
+FROM
+    job_postings
+WHERE
+    Level LIKE '%Entry%'
+GROUP BY Company
+ORDER BY COUNT(Company) DESC
+LIMIT 10;
 
 -- Top cities where entry level jobs are available
 select if(City = "" ," Remote", City) as City, count(Level) as entry_level_jobs
@@ -65,12 +68,14 @@ GROUP BY (CASE
     ELSE 'not specified'
 END);
 
--- jobs by indeustry by company 
+-- jobs by industry by company 
 
-select Industry, Company, count(Industry) as num_postings
-from job_postings
-group by Industry, Company
-order by num_postings DESC
+SELECT 
+    Industry, Company, COUNT(Industry) AS num_postings
+FROM
+    job_postings
+GROUP BY Industry , Company
+ORDER BY num_postings DESC
 ;  
 
 
@@ -79,13 +84,15 @@ order by num_postings DESC
 select case 
 when Requirements like '%Python%' then 'Python' 
 when Requirements like '% R %' then 'R'
--- when Requirements like '%sql%' then 'sql'
+when Requirements like '%sql%' then 'sql'
+when Requirements like '%NoSql%' then 'NoSql'
 else 'Not specified' end as programming_tools, count(*)
 from job_postings
 GROUP BY (case 
 when Requirements like '%Python%' then 'Python' 
 when Requirements like '% R %' then 'R'
--- when Requirements like '%sql%' then 'sql'
+when Requirements like '%sql%' then 'sql'
+when Requirements like '%NoSql%' then 'NoSql'
 else 'Not specified' end);
 
 -- most popular job titles
