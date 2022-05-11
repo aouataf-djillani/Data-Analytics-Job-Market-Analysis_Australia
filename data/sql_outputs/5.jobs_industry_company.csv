@@ -1,0 +1,411 @@
+Industry,Company,num_postings
+" Accounting",EY,43
+" Software Development",Canva,29
+" Financial Services","Macquarie Group",24
+" Business Consulting and Services","PwC Australia",20
+" IT Services and IT Consulting",Infosys,17
+" Government Administration","Jobs on jobactive",15
+" IT Services and IT Consulting",Avanade,15
+" Internet Publishing",Toptal,14
+" Business Consulting and Services",Deloitte,13
+" IT Services and IT Consulting",Capgemini,13
+" Staffing and Recruiting",Peoplebank,13
+" Financial Services","Insignia Financial",13
+" IT Services and IT Consulting","Amazon Web Services (AWS)",13
+" Government Administration","I work for NSW",11
+" IT Services and IT Consulting","Tata Consultancy Services",11
+" Business Consulting and Services","KPMG Australia",10
+" Staffing and Recruiting","Randstad Australia",10
+" Staffing and Recruiting",Talent,10
+" Staffing and Recruiting","Talent Insights Group",10
+" Civil Engineering",AECOM,10
+" Financial Services","Westpac Group",9
+" Staffing and Recruiting","Jobs via eFinancialCareers",9
+" Internet Publishing",Agoda,9
+" IT Services and IT Consulting","Hastha Solutions",9
+" Staffing and Recruiting","Robert Half",8
+" Financial Services","Commonwealth Bank",8
+" Hospitals and Health Care",Bupa,8
+" Staffing and Recruiting",Hays,7
+" Banking",ANZ,7
+" IT Services and IT Consulting",Aginic,7
+" Financial Services","Bank of Queensland",7
+" IT Services and IT Consulting","ASG Group",7
+" IT Services and IT Consulting","DXC Technology",7
+" IT Services and IT Consulting","Accenture Australia",6
+" IT Services and IT Consulting",Cognizant,6
+" IT Services and IT Consulting","TELUS International",5
+" Government Administration","NSW Department of Customer Service",5
+" IT Services and IT Consulting",Wipro,5
+" Internet Publishing",Amazon,5
+" Government Administration","Australian Government Department of Education  Skills and Employment (DESE)",5
+" Staffing and Recruiting","Robert Walters",5
+" Insurance","Allianz Australia",5
+" Retail","Endeavour Group",5
+" Staffing and Recruiting","Michael Page",5
+" Government Administration",ACCC,5
+" IT Services and IT Consulting",eTeam,4
+" Banking",Westpac,4
+" Research Services",CSIRO,4
+" IT Services and IT Consulting",Equifax,4
+" Staffing and Recruiting","SustainAbility Consulting",4
+" IT Services and IT Consulting","Pyramid Global Technologies",4
+" Consumer Services","RAC WA",4
+" Telecommunications",Optus,4
+" Staffing and Recruiting","Hydrogen Group",4
+" Banking",NAB,4
+" Software Development",Iress,4
+" Oil and Gas",Worley,4
+" IT Services and IT Consulting","FDM Group",4
+" Biotechnology Research","Avance Clinical",4
+" Software Development",GitHub,4
+" IT Services and IT Consulting","Tech Mahindra",4
+" IT Services and IT Consulting",Versent,3
+" Staffing and Recruiting","FIRST PEOPLE Recruitment Solutions",3
+" Higher Education","Deakin University",3
+" Staffing and Recruiting",Troocoo,3
+" IT Services and IT Consulting","Virtue Analytics Inc.",3
+" Entertainment Providers",Tabcorp,3
+" Staffing and Recruiting","Brunel Australasia",3
+" Staffing and Recruiting",Talenza,3
+" Staffing and Recruiting","SustainDigital Recruitment",3
+" Marketing Services","Flybuys (Loyalty Pacific)",3
+" IT Services and IT Consulting",Luxoft,3
+" Staffing and Recruiting","Whizdom Recruitment",3
+" Staffing and Recruiting","Halcyon Knights",3
+" Law Practice","Norton Rose Fulbright",3
+" Financial Services",TCorp,3
+" Computer Games",VGW,3
+" Retail","Woolworths Group",3
+" Financial Services","ISS | Institutional Shareholder Services",3
+" Banking","ING Australia",3
+" Business Consulting and Services","Nous Group",3
+" Software Development",Symbio,3
+" IT Services and IT Consulting",eliiza,3
+" Financial Services",Crypto.com,3
+" Business Consulting and Services",RPS,3
+" Retail","ALDI Stores Australia",3
+" IT Services and IT Consulting",DWS,3
+" Internet Publishing",Linktree,3
+" Higher Education","The University of Queensland",2
+" Insurance",Medibank,2
+" Staffing and Recruiting","Page Personnel",2
+" Entertainment Providers","The Walt Disney Company",2
+" Online Audio and Video Media","News Corp Australia",2
+" Higher Education","University of Melbourne",2
+" Retail",Wesfarmers,2
+" IT Services and IT Consulting",Novon,2
+" Government Administration","IP Australia",2
+" Mental Health Care","Black Dog Institute",2
+" Human Resources Services","Chandler Macleod",2
+" Financial Services","Zurich Australia",2
+" IT Services and IT Consulting","Green Light Worldwide",2
+" Government Administration",,2
+" Hospitals and Health Care",IQVIA,2
+" Beverage Manufacturing",Diageo,2
+" IT Services and IT Consulting",HP,2
+" Business Consulting and Services",Mercer,2
+" IT Services and IT Consulting",NewyTechPeople,2
+" Financial Services","Resolution Life",2
+" Construction",Coates,2
+" Restaurants","Pizza Man",2
+" IT Services and IT Consulting","XPT Software Australia",2
+" IT Services and IT Consulting","XPT Software",2
+" Leasing Real Estate","Scentre Group (Owner and Operator of Westfield in Aus and NZ)",2
+" Retail","Kmart Australia Limited",2
+" Utilities","Urban Utilities",2
+" Medical Equipment Manufacturing",ResMed,2
+" Internet Publishing","Kognitiv Corporation",2
+" Capital Markets",Optiver,2
+" Aviation and Aerospace Component Manufacturing",Boeing,2
+"1 001-5 000 employees",ACM,2
+" Insurance","Honey Insurance",2
+" IT Services and IT Consulting",DATA+,2
+" Retail Apparel and Fashion",Boardriders,2
+" Staffing and Recruiting","Morgan McKinley",2
+" Truck Transportation",Transurban,2
+" Higher Education","RMIT University",2
+" Retail",Bunnings,2
+" Internet Publishing",Eucalyptus,2
+" Financial Services","Suncorp Group",2
+" Software Development",MYOB,2
+" Banking","Judo Bank",2
+" Staffing and Recruiting","Emanate Technology",2
+" Capital Markets","Akuna Capital",2
+" Education Administration Programs","General Assembly",2
+" Retail","Temple & Webster",2
+" Business Consulting and Services","Synergy Group",2
+" Biotechnology Research",Novotech,2
+" Civic and Social Organizations","The NRMA",2
+" Public Relations and Communications Services","Pulse  part of Ogilvy PR",2
+" IT Services and IT Consulting",IBM,2
+" Software Development",Protecht,2
+" Biotechnology Research","Bio-Rad Laboratories",2
+" Online Audio and Video Media","REA Group",2
+" Government Administration","Department of Justice and Community Safety  Victoria",1
+" Pharmaceutical Manufacturing",Sandoz,1
+" Software Development",Atlassian,1
+" Staffing and Recruiting","Rubix Solutions Pty Ltd",1
+" Higher Education",UNSW,1
+" Government Administration","NSW Department of Planning and Environment",1
+" Hospitals and Health Care","HealthShare NSW",1
+" Higher Education","Monash University",1
+" Banking","Teachers Mutual Bank Limited",1
+" IT Services and IT Consulting","Technology People Group",1
+" Hospitals and Health Care","Health Support Services (WA health system)",1
+" Marketing Services",Annalect,1
+" Staffing and Recruiting","Oceans Group",1
+" Non-profit Organizations","Anglicare Sydney",1
+" Accounting","BDO in Australia",1
+"51-200 employees","Renaissance InfoSystems",1
+" IT Services and IT Consulting",Eclaro,1
+" IT Services and IT Consulting","Mane Consulting",1
+" Financial Services",Aon,1
+" IT Services and IT Consulting",Atos,1
+" Retail Luxury Goods and Jewelry",Luxottica,1
+" Financial Services",Revolut,1
+" Financial Services",Finder,1
+" Marketing Services",Zenith,1
+" Hospitals and Health Care","Bureau of Health Information",1
+" Insurance","Munich Re",1
+" Medical Equipment Manufacturing",Smith+Nephew,1
+" Defense and Space Manufacturing","KBR  Inc.",1
+" Staffing and Recruiting","SchoolHouse Australia",1
+"11-50 employees","The THRIVE Project",1
+" Facilities Services",Ventia,1
+" Financial Services",Prospa.,1
+" Banking","Greater Bank",1
+" Staffing and Recruiting","Quinn Allan",1
+" Hospitals and Health Care","Estia Health",1
+" Education Administration Programs","Catholic Education Diocese of Parramatta",1
+" Manufacturing",Essity,1
+" Pharmaceutical Manufacturing","Teva Pharmaceuticals",1
+" IT Services and IT Consulting","ZSoft Technologies Pty Ltd",1
+" Staffing and Recruiting","Limelight People",1
+" Utilities","Australian Energy Market Operator (AEMO)",1
+" Financial Services",AustralianSuper,1
+" Government Administration","City of Melbourne",1
+" Law Practice","Lander & Rogers",1
+"51-200 employees","Faethm by Pearson",1
+" Staffing and Recruiting","2XM Technology Pty Ltd",1
+" Leasing Real Estate",CBRE,1
+" IT Services and IT Consulting","Fujitsu Australia and New Zealand",1
+" Retail Apparel and Fashion","Essense of Australia",1
+" Staffing and Recruiting","Solve Recruitment Australia",1
+" IT Services and IT Consulting","4 Mile Analytics",1
+" Government Administration","ACT Government",1
+" Marketing Services",oOh!,1
+" Hospitals and Health Care","Catholic Healthcare",1
+" Retail","MECCA Brands",1
+" Internet Publishing",Redbubble,1
+" Staffing and Recruiting",Storm2,1
+" Entertainment Providers","Blizzard Entertainment",1
+" Higher Education","Federation University Australia",1
+" Staffing and Recruiting","Bayside Group",1
+" Hospitals and Health Care",Mable,1
+" Primary and Secondary Education","Mazenod College",1
+" Broadcast Media Production and Distribution",Nine,1
+"201-500 employees","Penguin Random House Australia & New Zealand",1
+" Human Resources Services","Starling Services",1
+" IT Services and IT Consulting",Servian,1
+" Airlines and Aviation",Qantas,1
+" Staffing and Recruiting","Pinpoint Talent",1
+" Law Enforcement","Victoria Police",1
+" Human Resources Services","Hunt & Co.",1
+" Entertainment Providers","Activision Blizzard",1
+" Design Services",AKQA,1
+" IT Services and IT Consulting",Serco,1
+" Marketing Services",Kinesso,1
+" Hospitals and Health Care","Gold Coast Hospital and Health Service",1
+" Human Resources Services","Polyglot Group",1
+" Insurance","MLC Life Insurance",1
+" IT Services and IT Consulting","Bet Technology",1
+" Staffing and Recruiting","Connect One Recruitment",1
+" Entertainment Providers",Activision,1
+" Food and Beverage Manufacturing","McCain Foods",1
+" IT Services and IT Consulting",Compas,1
+" IT Services and IT Consulting","AJQ Consulting",1
+" Financial Services","Maven Securities",1
+" Armed Forces","Royal Australian Navy",1
+" Mining",Alcoa,1
+" IT Services and IT Consulting","HCL Australia Services Pty Limited",1
+" Government Administration","Careers at Council",1
+" Human Resources Services","Karlka Recruiting Group",1
+" Education Administration Programs","NSW Department of Education",1
+" Staffing and Recruiting","Eden Ritchie Recruitment",1
+" IT Services and IT Consulting",Sportsbet,1
+" Staffing and Recruiting","Niche 212",1
+" Insurance","ahm Health Insurance",1
+" IT Services and IT Consulting",Araza,1
+" Market Research",TruRating,1
+" IT Services and IT Consulting","Leidos Australia",1
+" Financial Services","McMillan Shakespeare (MMSG)",1
+" Marketing Services","M&C Saatchi Group AUNZ",1
+" Staffing and Recruiting",Salt,1
+" Financial Services","Latitude Financial Services",1
+" Hospitals and Health Care","University Hospitals of Derby and Burton NHS Foundation Trust",1
+" Human Resources Services",Rarekind,1
+" IT Services and IT Consulting","hipages Group",1
+" Computers and Electronics Manufacturing","JB Hi-Fi",1
+" Civil Engineering","Fulton Hogan",1
+" Defense and Space Manufacturing","Australian Department of Defence",1
+" Government Administration","Department of Treasury and Finance  Victoria",1
+" Entertainment Providers","NOVA Entertainment",1
+" Book and Periodical Publishing","Are Media Pty Ltd",1
+" Insurance","MetLife Australia",1
+"1 001-5 000 employees","Murdoch University",1
+" IT Services and IT Consulting",Ampstek,1
+" Staffing and Recruiting","Genius People",1
+" Packaging and Containers Manufacturing",YFYJupiter,1
+" IT Services and IT Consulting",Genpact,1
+" Hospitals and Health Care","North Metropolitan Health Service",1
+" Marketing Services","Creative Activation",1
+" Telecommunications",Vocus,1
+" Food and Beverage Services","The Kraft Heinz Company",1
+" IT Services and IT Consulting","Arq Group",1
+" Financial Services",Citi,1
+" Government Administration","Queensland Government",1
+" Telecommunications",AirTrunk,1
+" Motor Vehicle Manufacturing","Mercedes-Benz Australia",1
+"11-50 employees",Dataro,1
+" IT Services and IT Consulting","Leica Geosystems part of Hexagon",1
+" Staffing and Recruiting",Adecco,1
+" Pharmaceutical Manufacturing","Syneos Health Clinical Solutions",1
+" IT Services and IT Consulting",Nearmap,1
+" IT Services and IT Consulting",Quantium,1
+" Construction",Metricon,1
+" Staffing and Recruiting","Frazer Tremble - Recruitment & Consulting",1
+" Security and Investigations","Xpera Risk Mitigation & Investigation",1
+" IT Services and IT Consulting","Canberra Consulting",1
+" Marketing Services","The Lumery",1
+" Software Development",Prospection,1
+" Staffing and Recruiting",Ignite,1
+" Motor Vehicle Manufacturing",RAA,1
+" Staffing and Recruiting","The Recruitment Company Pty Ltd",1
+" Financial Services",illion,1
+" Retail","Adairs Retail Group",1
+" Leasing Real Estate",Mirvac,1
+" Aviation and Aerospace Component Manufacturing","Raytheon Technologies",1
+" IT Services and IT Consulting",Modis,1
+" IT Services and IT Consulting",Afterpay,1
+" Internet Publishing",Immutable,1
+" IT Services and IT Consulting",CKI,1
+" IT Services and IT Consulting","MGB AUSTRALIA PTY LTD",1
+" Financial Services","Anton Murray Consulting",1
+" IT Services and IT Consulting","BURGEON IT SERVICES",1
+" Civil Engineering","Service Stream",1
+" IT Services and IT Consulting","XY Sense",1
+" Entertainment Providers",Stan.,1
+" Gambling Facilities and Casinos","Easygo Gaming",1
+"11-50 employees",TrafficGuard,1
+" Business Consulting and Services",ChandlerWoods,1
+" Gambling Facilities and Casinos","Betfair Australia",1
+" Banking","BNP Paribas",1
+"See how you compare to 14 applicants. Try Premium for free","Department of Resources",1
+" IT Services and IT Consulting","Maltem Australia",1
+"51-200 employees",me&u,1
+" Financial Services","Netwealth - See Wealth Differently (ASX:NWL)",1
+" Hospitals and Health Care","Johnson & Johnson",1
+" Research Services",PPD,1
+"51-200 employees",Chartair,1
+" Financial Services","BMW Group Financial Services Australia",1
+" Maritime Transportation","Pilbara Ports Authority",1
+" Internet Publishing",Overdose.,1
+" Law Enforcement","Corrective Service Industry",1
+" Staffing and Recruiting","White Bay",1
+" Software Development",RedEye,1
+" Financial Services","Loan Market Group",1
+" Financial Services","MSCI Inc.",1
+"51-200 employees","AMC Consultants",1
+" Staffing and Recruiting","Open Door Recruitment and Development",1
+"1-10 employees","Kardinya Partners",1
+" Financial Services","Susquehanna International Group  LLP (SIG)",1
+" IT Services and IT Consulting",Ampion,1
+" Law Enforcement","NSW Police Force",1
+" Mining",RPMGlobal,1
+" Higher Education","James Cook University",1
+" Retail","7-Eleven Australia",1
+" Staffing and Recruiting","Eight Recruitment",1
+" Staffing and Recruiting","The Insight Group",1
+" Environmental Services","Dendra Systems",1
+" Retail Apparel and Fashion","Insight 51 (Bleach Pty Ltd)",1
+" IT Services and IT Consulting","XPON Technologies Group (ASX:XPN)",1
+"See how you compare to 7 applicants. Try Premium for free",Atomic212,1
+" Government Administration","Australian Department of Agriculture  Water and the Environment",1
+" Construction","CPB Contractors",1
+" IT Services and IT Consulting",InterWorks,1
+" Insurance",Marsh,1
+"11-50 employees","Pangolin Associates Pty Ltd",1
+" Government Relations Services","Transport Accident Commission (TAC)",1
+" Staffing and Recruiting",Sidekicker,1
+" Higher Education","University of New England (AU)",1
+" Higher Education","Flinders University",1
+" IT Services and IT Consulting",Interactive,1
+"1 001-5 000 employees","Western Sydney University",1
+" Translation and Localization",Welocalize,1
+" Pharmaceutical Manufacturing","Southern Star Research",1
+" Utilities",Sunwater,1
+" Mining","Round Oak Minerals Pty Limited",1
+"11-50 employees","Edge Stackers",1
+" Internet Publishing","Think & Grow",1
+" Retail","Woolworths Supermarkets",1
+" Staffing and Recruiting","Correlate Resources",1
+"11-50 employees",Skillfield,1
+" Telecommunications","TPG Telecom",1
+" Banking","Bendigo and Adelaide Bank",1
+" Retail",Hawaiian,1
+" Civil Engineering",GHD,1
+" Wellness and Fitness Services","Hearing Australia",1
+" Wellness and Fitness Services","Blackmores Group",1
+" Financial Services",ASX,1
+" Staffing and Recruiting","Appoint Pty Ltd",1
+" Hospitality",Accor,1
+"51-200 employees","Haircare Group",1
+" Staffing and Recruiting","4Twenty Consulting",1
+"501-1 000 employees","Sime Darby Motors Group Australia",1
+" IT Services and IT Consulting","Tekskills Inc.",1
+" Investment Management","Wellington Management",1
+"51-200 employees","ACS (Australian Computer Society)",1
+" Marketing Services",Media.Monks,1
+" Staffing and Recruiting","Galileo Search",1
+"51-200 employees","The Social Research Centre",1
+" Hospitals and Health Care","Department of Health (WA Health)",1
+" Internet Publishing",Google,1
+" Banking","Australian Military Bank Ltd",1
+"See recent hiring trends for Hemisphere HR . Try Premium for free","Hemisphere HR",1
+" Staffing and Recruiting","Embedded Search",1
+"51-200 employees","ManVision Consulting",1
+" Appliances  Electrical  and Electronics Manufacturing",Honeywell,1
+" IT Services and IT Consulting",Thoughtworks,1
+"1-10 employees","Lime Theory",1
+" IT Services and IT Consulting",Unico,1
+" Financial Services","Vision Super",1
+" Software Development",Shippit,1
+" Human Resources Services","Invisible Partners",1
+"1-10 employees","RMIT Enterprise AI and Data Analytics Hub",1
+" Truck Transportation","Transport for NSW",1
+" IT Services and IT Consulting","The Business Agility Group (Australia) Pty Ltd",1
+" Retail Apparel and Fashion","Culture Kings",1
+" Internet Publishing","The Trade Desk",1
+" Staffing and Recruiting",FutureYou,1
+" Retail Office Equipment",COS,1
+"11-50 employees","Alpha Vista Financial Services",1
+" Machinery Manufacturing","William Adams Pty Ltd",1
+" IT Services and IT Consulting","BI & DW Australia",1
+" Hospitals and Health Care","Australian Red Cross Lifeblood",1
+" IT Services and IT Consulting","FIRESOFT People",1
+" Staffing and Recruiting","Resources Group",1
+" Telecommunications","BAI Communications",1
+" IT Services and IT Consulting","Retail Insight",1
+" Transportation  Logistics and Storage","Toll Group",1
+"51-200 employees","Carlton Football Club",1
+" IT Services and IT Consulting",HealthShare,1
+"11-50 employees",BiTQ,1
+" Staffing and Recruiting","CYOS Solutions",1
+" Financial Services","Australian Retirement Trust",1
+" Marketing Services","UM Australia",1
+"11-50 employees","Ox Mountain",1
+"11-50 employees",GEOSNAPSHOT,1
+"10 001+ employees","Australian Government",1
+" IT Services and IT Consulting",PaidRight,1
+" Oil and Gas",Chevron,1

@@ -26,9 +26,9 @@ def clean(file):
 
     #save to excel
 
-    output="/home/aouataf/Documents/linkedinJobs/DataAnalystJobs_clean.xlsx"
+    output="/home/aouataf/Documents/linkedinJobs/data/DataAnalystJobs_clean.xlsx"
     data.to_excel(output)
     return f"data saved to {output}"
 
-dataFile='/home/aouataf/Documents/linkedinJobs/DataAnalystJobs.xlsx'
+dataFile='/home/aouataf/Documents/linkedinJobs/data/DataAnalystJobs.xlsx'
 print(clean(dataFile))

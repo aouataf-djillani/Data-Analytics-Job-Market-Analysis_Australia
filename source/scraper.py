@@ -137,6 +137,6 @@ data= data.transpose()
 
 
 #save dataframe to excel
-data.to_excel('DataAnalystJobs.xlsx', index = False)  
+data.to_excel('/home/aouataf/Documents/linkedinJobs/data/DataAnalystJobs.xlsx', index = False)  
 print("data successfully stored ") 
 

@@ -1,7 +1,4 @@
-SELECT 
-    *
-FROM
-    jobs_australia.job_postings;
+
 -- Top cities locations for data analyst jobs
 SELECT 
     city, COUNT(*) as job_offers
@@ -20,7 +17,35 @@ FROM
     job_postings
 GROUP BY Industry
 ORDER BY num_postings DESC
-LIMIT 10;  
+LIMIT 15;  
+
+-- A function that takes a city as a parameter and returns the top hiring company
+delimiter $$
+create function f_top_company_by_city(p_City text)
+returns text 
+deterministic reads sql data
+begin 
+declare v_company text; 
+select Company into v_company
+from job_postings
+where City=p_City 
+group by Company 
+order by count(Company) desc
+limit 1;
+return v_company ; 
+end $$
+delimiter ; 
+
+select f_top_company_by_city(' Melbourne') as Top_hiring_company;
+
+-- inner join on cities and companies to see in which cities every company is hiring 
+
+select  distinct t2.Company, if (t1.City='', 'N/A',  t1.City) as Hiring_cities
+from job_postings t1
+inner join job_postings t2
+where t1.Company= t2.company
+and t1.city!= t2.city
+order by t2.company;
 
 -- Number of job postings by experience level
 select if (Level="", "Not specified",Level) as Experience_level, count(Level) as num_postings
@@ -81,27 +106,33 @@ ORDER BY num_postings DESC
 
 -- R vs Python vs SQL vs Nosql 
 
-select case 
-when Requirements like '%Python%' then 'Python' 
-when Requirements like '% R %' then 'R'
-when Requirements like '%sql%' then 'sql'
-when Requirements like '%NoSql%' then 'NoSql'
-else 'Not specified' end as programming_tools, count(*)
-from job_postings
-GROUP BY (case 
-when Requirements like '%Python%' then 'Python' 
-when Requirements like '% R %' then 'R'
-when Requirements like '%sql%' then 'sql'
-when Requirements like '%NoSql%' then 'NoSql'
-else 'Not specified' end);
+SELECT 
+    CASE
+        WHEN Requirements LIKE '%Python%' THEN 'Python'
+        WHEN Requirements LIKE '% R %' THEN 'R'
+        WHEN Requirements LIKE '%sql%' THEN 'sql'
+        WHEN Requirements LIKE '%NoSql%' THEN 'NoSql'
+        ELSE 'Not specified'
+    END AS programming_tools,
+    COUNT(*)
+FROM
+    job_postings
+GROUP BY (CASE
+    WHEN Requirements LIKE '%Python%' THEN 'Python'
+    WHEN Requirements LIKE '% R %' THEN 'R'
+    WHEN Requirements LIKE '%sql%' THEN 'sql'
+    WHEN Requirements LIKE '%NoSql%' THEN 'NoSql'
+    ELSE 'Not specified'
+END);
 
 -- most popular job titles
-select Title, count(Title)
-from job_postings
+SELECT 
+    Title, COUNT(Title)
+FROM
+    job_postings
+GROUP BY title
+ORDER BY COUNT(Title) DESC
+LIMIT 15;
 
-group by title
-order by count(Title) desc 
-limit 15;
 
 
--- which cloud service AWS vs Azure vs Google Cloud vs IBM
