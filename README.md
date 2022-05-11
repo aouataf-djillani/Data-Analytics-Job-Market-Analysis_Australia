@@ -11,8 +11,9 @@ Hopefully, these insights will help me and everyone who visits my repository in 
  - Where is the best place for a junior profile to apply? 
  - Which industries hire Data Analysts the most ? 
 
- file:///home/aouataf/Downloads/Data%20Analyst%20Job%20Trend%20in%20Autralia%202022.png 
- 
+
+ ![Data Analyst Job Trend in Autralia 2022(1)](https://user-images.githubusercontent.com/54501663/167870887-86c19e2c-921b-4357-a4df-d6dbfdce19a9.png)
+
   
 ## Steps
 
