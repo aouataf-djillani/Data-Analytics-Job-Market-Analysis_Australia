@@ -24,7 +24,7 @@ Hopefully, these insights will help me and everyone who visits my repository in 
 ## Dataset 
 Our data-set contains information  (1000 records) about job offers: City, Company, job title, experience level,  Demographics...etc 
 | Date | Company  | Title  | City | Region | Country | Level | Type | Requirements | Industry | Link
-|--|--|--|--|--|--|--|--|--|--|--|--|
+|--|--|--|--|--|--|--|--|--|--|--|
 
 ## Sample  SQL Queries 
 All queries [here.](https://github.com/aouataf-djillani/Data-Analytics-Job-Market-Analysis_Australia/blob/master/source/queries.sql) 
